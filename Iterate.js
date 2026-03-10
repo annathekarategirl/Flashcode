@@ -1,0 +1,1 @@
+//Have func for looping, stopping, chinese vs spanish,

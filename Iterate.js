@@ -60,3 +60,11 @@ esButton.addEventListener("click",function(){
         document.body.removeChild(reveal);esButton.disabled=false;cnButton.disabled=false;})
     }
     })
+
+
+const DLM=document.getElementById("darkmode");
+function togglemode(){
+    if( document.body.style.backgroundColor="white"){ document.body.style.backgroundColor="black"}
+    else{document.body.style.backgroundColor="white"}
+//change text color and add this to event listener
+}

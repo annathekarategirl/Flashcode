@@ -1,6 +1,6 @@
 
 
-let words= [
+let cnlist= [
 ["爱情", "ài qíng", "romance; love (romantic)"],
 ["安排", "ān pái", "to arrange; to plan"],
 ["安全", "ān quán", "safe; secure; safety"],

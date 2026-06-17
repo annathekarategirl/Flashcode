@@ -9,6 +9,15 @@ function random(arr){
     let randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex];}
 
+document.addEventListener("keydown",function(keystroke){
+    if(keystroke.code=="KeyQ"){
+        cnButton.click();
+    }
+    if(keystroke.code=="KeyE"){
+        reveal.click()
+    }
+})
+
 let cnButton= document.getElementById("chinese")
 let txtDisplay=document.getElementById("txtdisplay")
 let pronounceTxt=document.getElementById("pronounce")
